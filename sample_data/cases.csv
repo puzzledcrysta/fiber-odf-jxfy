@@ -1,0 +1,8 @@
+case,始端,末端,双向跳接,光损预算
+twoway,A,C,A>B:0.15;B>A:0.15;B>C:0.22;C>B:0.22,0.40
+exact,A,B,B>A:0.30;A>B:0.30,0.30
+branch,A,C,A>B:1;B>A:1;B>C:2;C>B:2;B>D:3;D>B:3,3
+one_sided,A,B,A>B:0.30,1
+loop,A,C,A>B:1;B>A:1;B>C:1;C>B:1;C>A:1;A>C:1,20
+break,A,C,A>B:1;B>A:1,2
+over,A,B,A>B:0.4;B>A:0.4,0.39

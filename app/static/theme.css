@@ -1,0 +1,16 @@
+/* 始端 · 跳接 */
+:root {
+  color-scheme: dark;
+  --bg: #131b18; --rail: #101712; --accent: #65ddb8; --ink: #d7eee5;
+  --panel: color-mix(in srgb, var(--bg) 91%, white);
+  --line: color-mix(in srgb, var(--ink) 24%, var(--bg));
+  --mute: color-mix(in srgb, var(--ink) 78%, var(--bg));
+  --th: color-mix(in srgb, var(--panel) 84%, var(--accent));
+  --rail-ink: #f2f0e9;
+  --primary: #151919;
+  --bad: #ffb9bd;
+  --ui: Monaco, monospace; --mono: ui-monospace, Menlo, monospace;
+  --pad: 19px; --row: 39px; --gap: 10px;
+  --figure: 26px; --title: 36px; --graph: 72px;
+  --scroll: 315px;
+}
